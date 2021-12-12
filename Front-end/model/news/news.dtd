@@ -1,0 +1,10 @@
+<!DOCTYPES news [
+<!ELEMENT news (news+)>
+<!ELEMENT news (title, description, image, link) >
+<!ATTLIST news nid CDATA #REQUIRED >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT image (#PCDATA) >
+<!ELEMENT link (#PCDATA>
+<!ELEMENT link type CDATA #REQUIRED>
+]>

@@ -1,0 +1,6 @@
+# Turn on the rewriting engine
+RewriteEngine On    
+
+# Change the URI - Note on Abertay the first line is not needed
+# RewriteRule ^employees/?$ employees.php [NC,L]
+RewriteRule ^news.php/([0-9]+)?$ news.php?nid=$1 [NC,L]
